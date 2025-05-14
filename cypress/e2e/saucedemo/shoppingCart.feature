@@ -11,4 +11,5 @@ Feature: Shopping Cart - Add Products to Cart
   #Negative Case
   Scenario: User tries to access the inventory page without logging in to add product to cart
   Given I try to access the inventory page without logging in
+  #Assertion
   Then I should not be allowed to view the page
