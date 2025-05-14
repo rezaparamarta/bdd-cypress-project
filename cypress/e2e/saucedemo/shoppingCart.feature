@@ -1,7 +1,7 @@
 Feature: Shopping Cart - Add Products to Cart
   #Positive Case
   Scenario: Login and add Sauce Labs Backpack to the cart
-    Given I open the Saucedmo login page
+    Given I open the Saucedemo login page
     When I login using username "standard_user" and password "secret_sauce"
     And I press the login button
     Then I must be on the inventory page

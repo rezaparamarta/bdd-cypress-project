@@ -8,7 +8,7 @@ Feature: Login to Saucedemo
   Then I should be redirected to the inventory page
 
   # Negative Case Login
-  Scenario: Successful login with invalid credentials
+  Scenario: Failed login with invalid credentials
   Given I open the Saucedemo login page
   When I enter the username "invaliduser" and password "secret_sauce"
   And I click the login button
